@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: Proxima-Nova-Light;
+    src: url(static/proximanova_light.otf)
+}
+@font-face {
+    font-family: Proxima-Nova-Regular;
+    src: url(static/proximanova_regular.ttf)
+}
+@font-face {
+    font-family: Proxima-Nova-Bold;
+    src: url(static/proximanova_bold.otf)
+}
+@font-face {
+    font-family: Proxima-Nova-ExtraBold;
+    src: url(static/proximanova_extrabold.otf)
+}
+
+body {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(255, 255, 245);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navButtons {
+    font-family: 'Proxima-Nova-Regular';
+    flex-basis: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+.projectsButton {
+    display:flex;
+    height: 30px;
+    align-items: center;
+    padding: 2px 62px 2px 62px;
+    border-radius: 100px;
+    background-color: rgb(000, 000, 000);
+}
+
+.buttonTextThin {
+    font-family: 'Proxima-Nova-Light';
+    margin: 0px;
+    color: white;
+}
+
+.featuredContainer {
+    position: relative;
+    height: 180px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: 'Proxima-Nova-Regular';
+    font-size: 3em;
+}
+
+.heroh2 {
+    
+    margin: 0px;
+    color: rgb(255, 255, 245);
+}
+
+.arrowContainer {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.arrow {
+    display: block;
+}
+
+.heroDiv {
+    position: relative;
+}
+
+.heroHead {
+    margin-top: 10px;
+}
+.headline {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.exploreButton {
+    font-family: 'Proxima-Nova-Light';
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    width: 420px;
+    border-radius: 400px;
+    border-width: 2px;
+    border-color: black;
+    border-style:outset;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
