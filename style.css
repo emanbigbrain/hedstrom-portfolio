@@ -160,6 +160,31 @@ h1 {
     padding-top: 80px;
 }
 
+.projectTitle {
+  margin-top: 100px;
+}
+
+.projectDivContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 250px;
+}
+
+.projectImage {
+  width: 100%;
+}
+
+.projectImageChair {
+  width: 100%;
+  margin-bottom: 250px;
+}
+
+.projectSubTitle {
+  margin-bottom: 50px;
+}
+
 /* code from builder.io*/
 
 .div {
