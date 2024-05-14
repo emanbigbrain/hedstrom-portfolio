@@ -7,6 +7,7 @@
     <title>Home</title>
 </head>
 <body>
+    <div class="totalContainer">
     <header>
         <nav>
             <div class="homeButton" href="index.html">
@@ -15,19 +16,20 @@
             </a>
             </div>
             <div class="projectsButton">
-                <a class="buttonTextThin" href="projectOne.html">PROJECTS</a>
+                <a class="buttonTextThin" href="#projects">PROJECTS</a>
             </div>
             <div class="navButtons">
                 <div class="aboutButton">
                     <a class="navButtonText" href="about.html">ABOUT</a>
                 </div>
                 <div class="contactButton">
-                    <a class="navButtonText" href="contact.html">CONTACT</a>
+                    <a class="navButtonText" href="#contact">CONTACT</a>
                 </div>
             </div>   
         </nav>
     </header>
     <main>
+        <a href="table.html">
         <div class="featuredContainer">
             <h2 class="heroh2">FEATURED WORK</h2>
             <div class="arrowContainer">
@@ -35,17 +37,18 @@
             </div>
             <div></div>
         </div>
+        </a>
         <div class="heroDiv">
             <h1 class="heroHead">
                 <img class="headline" src="static/title.svg" alt="Ebba Hedström">
             </h1>
             <div class="exploreButton">
-                <h3 class="exploreButtonText">EXPLORE PROJECTS</h3>
+                <h3 class="exploreButtonText">EXPLORE PROJECTS BELOW</h3>
             </div>
         </div>
-        <div class="projectsDiv">
+        <div class="projectsDiv" id="projects">
             <h2 class="projectTitle">PROJECTS</h2>
-            <a class="projectLink">
+            <a class="projectLink" href="table.html">
                 <div class="projectContainer">
                     <div class="projectDivContainer">
                         <img class="projectImage" src="static/DSC_5780.jpg" alt="Image of Project">
@@ -53,7 +56,7 @@
                     <h3 class="projectSubTitle">THE TABLE</h3>
                 </div>
             </a>
-            <a class="projectLink">
+            <a class="projectLink" href="chair-circa.html">
                 <div class="projectContainer">
                     <div class="projectDivContainer">
                         <img class="projectImageChair" src="static/MOBELDES_FURNITURE_FAIR-240131-13862.jpg" alt="Image of Project">
@@ -61,29 +64,28 @@
                     <h3 class="projectSubTitle">THE CHAIR CIRCA</h3>
                 </div>
             </a>
-            <a class="projectLink">
+            <a class="projectLink" href="exhibition-stand.html">
                 <div class="projectContainer">
                     <div class="projectDivContainer">
-                        <img class="projectImage" src="static/DSC_5780.jpg" alt="Image of Project">
+                        <img class="projectImage" src="static/kamera 7 bild 3.jpg" alt="Image of Project">
                     </div>
-                    <h3 class="projectSubTitle">THE TABLE</h3>
-                </div>
-            </a>
-            <a class="projectLink">
-                <div class="projectContainer">
-                    <div class="projectDivContainer">
-                        <img class="projectImage" src="static/DSC_5780.jpg" alt="Image of Project">
-                    </div>
-                    <h3 class="projectSubTitle">THE TABLE</h3>
+                    <h3 class="projectSubTitle">EXHIBITION STAND</h3>
                 </div>
             </a>
         </div>
     </main>
-    <footer>
-        <div></div>
-        <div>
-            <div></div>
-            <div></div>
+</div>
+    <footer id="contact">
+        <div class="footerDiv">
+            <div class="footerContainer">
+            <h2 class="contactHeading">CONTACT ME</h1>
+            <h3 class="h3Footer">COME SAY HELLO OR LET'S CHAT ABOUT SOMETHING IN PARTICULAR.</h3>
+            <div class="contactFlex">
+            <p>Instagram: @ebba_hedstrom</p>
+            <p>Email: ebbasyarn@gmail.com</p>
+            <a href="https://www.linkedin.com/in/ebba-hedstr%C3%B6m-593041221/">LinkedIn</a>
+            </div>
+            </div>  
         </div>
     </footer>
 </body>

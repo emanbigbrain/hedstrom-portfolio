@@ -16,12 +16,22 @@
     src: url(static/proximanova_extrabold.otf)
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     position: relative;
     margin-top: 10px;
+    background-color: rgb(255, 255, 245);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.totalContainer {
     margin-right: 150px;
     margin-left: 150px;
-    background-color: rgb(255, 255, 245);
 }
 
 nav {
@@ -124,14 +134,14 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 145px;
-    width: 420px;
+    width: 520px;
     border-radius: 400px;
     border-width: 2px;
     border-color: black;
     border-style:outset;
     position: absolute;
     bottom: 0;
-    right: 150px;
+    right: 80px;
 }
 
 .centeredH1 {
@@ -183,6 +193,66 @@ h1 {
 
 .projectSubTitle {
   margin-bottom: 50px;
+}
+
+.footerDiv {
+  color: white;
+  margin-top: 200px;
+  height: 95vh;
+  width: 100%;
+  background-color: black;
+
+}
+
+.footerContainer {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.contactHeading {
+  padding-top: 50px;
+  font-size: 6em;
+}
+
+.contactFlex {
+  position: relative;
+  font-family: 'Proxima-Nova-Light';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h3Footer {
+  margin-top: 400px;
+}
+
+.projectsHeadingDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.summaryText {
+  width: 500px;
+}
+
+.projectSpecificImage {
+  width: 1440px;
+}
+
+.projectSpecificImageDiv {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+.projectText {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /* code from builder.io*/
